@@ -1,0 +1,87 @@
+    html,
+    body{
+      font-family: sans-serif;
+    }
+    .sidebar{
+      position: fixed;
+      padding-top: 40px;
+      top:0;
+      left: 0;
+      width: 250px;
+      height: 100%;
+      background: #ccc;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .sidebar>ul{
+      list-style: none;
+      padding: 0;
+    }
+    .sidebar>ul>li>a{
+      padding: 12px;
+      display: block;
+      text-decoration: none;
+      color: #546e7a;
+    }
+    .sidebar>ul>li>a:hover{
+      background: #eee;
+      border-radius: 10px;
+    }
+    .active{
+      background: #eee;
+      border-radius: 10px;
+    }
+    .container{
+      margin-top: 30px;
+      margin-left: 300px;
+      margin-right: 30px;
+      width: 75%;
+    }
+    .navbar{
+      z-index: 1;
+    }
+    table{
+      width: 100%;
+      border-collapse: collapse;
+    }
+    tr{
+      border: 1px solid #aaa;
+      padding:4px;
+    }
+    tr:nth-child(even){
+      background: #eee;
+    }
+    th{
+      background: #ccc;
+    }
+    td, th{
+      border: 1px solid #aaa;
+      padding: 10px;
+      font-size: 10pt;
+    }
+    .row{
+      display: flex;
+      flex-direction: row;
+      margin: 8px;
+    }
+
+    select,
+    input[type=text],
+    input[type=date],
+    input[type=password]
+    {
+      padding:8px;
+      border:0.5px solid #eee;
+      margin: 4px;
+    }
+
+    .btn{
+      border: 0.5px solid #aaa;
+      margin: 4px;
+    }
+
+    label{
+      display: inline-block;
+      margin-top: 4px;
+      padding: 8px;
+    }
