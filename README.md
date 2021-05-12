@@ -13,6 +13,15 @@
 Default admin user : EMP0001<br>
 Default admin pass : password
 
+
+<h3>Usage</h3>
+
+Attendance is logged through http post request on /api.log.php<br/>
+
+<b>(Try: curl -X POST -d "id=EMP0003&gate=1" http://<path_to_project_directory>/api.log.php)</b>
+
+<b>id</b> is the employee id and the <b>gate</b> is the gate number through which employee enters or leaves.
+
 <h3>Screenshots</h3>
 
 1. Login page
