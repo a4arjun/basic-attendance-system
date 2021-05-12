@@ -12,3 +12,22 @@
 
 Default admin user : EMP0001<br>
 Default admin pass : password
+
+<h3>Screenshots</h3>
+
+1. Login page
+
+![Login page](https://github.com/a4arjun/basic-attendance-system/blob/main/screenshots/login.png?raw=true)
+
+
+
+2. Admin dashboard
+
+![Dashboard](https://github.com/a4arjun/basic-attendance-system/blob/main/screenshots/admin-dashboard.png?raw=true)
+
+
+
+3. Daily reports
+
+![Daily reports](https://github.com/a4arjun/basic-attendance-system/blob/main/screenshots/admin-daily-reports.png?raw=true)
+
